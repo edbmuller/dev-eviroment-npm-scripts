@@ -30,4 +30,5 @@ Reference: [Why npm scripts](https://css-tricks.com/why-npm-scripts/)
 * **whatwg-fetch**
 * **Mock HTTP**
 	Reference: [Building a JavaScript Development Environment](https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents)
-* ****
+* **webpack optimization: splitChunks**
+	For spliting vendor modules and cache then, since they are unlike to change as often as application code.

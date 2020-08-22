@@ -20,7 +20,7 @@ Reference: [Why npm scripts](https://css-tricks.com/why-npm-scripts/)
 - [ ] Uglifying JavaScript files
 - [ ] Compressing Images
 - [ ] SVG Sprites
-- [ ] 
+- [ ] Implement @wordpress/dependency-extraction-webpack-plugin for handle the bundle for wordpress sites
 - [ ] Demo app
 	- Organize js folders by feature
 	- Extract logic into POJOs insted of using to much the framework

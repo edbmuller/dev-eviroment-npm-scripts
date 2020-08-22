@@ -9,3 +9,8 @@ Development enviroment using npm scripts insted of building abstractions like gu
     This project use an .editorconfig to standardize the coding styling among the team.
 		To enable go to [editorconfig](https://editorconfig.org/) and select the editor of your choice to make the condiguration.
 
+## Possible upgrades
+
+* **BrowserSync Server**
+
+		For testing among devices and autorefresh

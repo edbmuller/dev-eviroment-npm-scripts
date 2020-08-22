@@ -5,10 +5,10 @@
 	"author": "Eduardo Bonamigo",
 	"license": "MIT",
 	"scripts": {
-		"prestart": "babel-node buildScripts/startMessage.js --silent",
-		"start": "npm-run-all --parallel server:express lint:watch --silent",
-		"server:express": "babel-node buildScripts/srcServer.js --silent",
-		"server:browsersync": "cd src & browser-sync start --server --files \"*\" --silent",
+		"prestart": "babel-node buildScripts/startMessage.js",
+		"start": "npm-run-all --parallel server:express lint:watch",
+		"server:express": "babel-node buildScripts/srcServer.js",
+		"server:browsersync": "cd src & browser-sync start --server --files \"*\"",
 		"lint": "esw webpack.config.* src buildScripts --color",
 		"lint:watch": "npm run lint -- --watch"
 	},
@@ -33,8 +33,6 @@
 		"express": "4.17.1",
 		"extract-text-webpack-plugin": "3.0.2",
 		"html-webpack-plugin": "4.3.0",
-		"json-schema-faker": "0.4.7",
-		"json-server": "0.16.1",
 		"nock": "13.0.4",
 		"npm-run-all": "4.1.5",
 		"nsp": "3.2.1",
